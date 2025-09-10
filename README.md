@@ -22,30 +22,13 @@ The objective is to compare baseline single-task models against multitask archit
 
 ---
 
-## 🛠️ Requirements
-
-* Python ≥ 3.9
-* PyTorch
-* torchvision
-* albumentations
-* matplotlib
-* numpy
-* scikit-learn
-* jupyter
-
-Install with:
-
----
-
-## 🚀 Usage
+## 🚀 Requirements and Usage
 
 Install the dependencies:
 
 ```bash
 pip install -r requirements.txt
 ```
-
-Then run `GenderClassification-FacialLandmarksDetection.ipynb` in Jupyter or Google Colab.
 
 ---
 
@@ -64,12 +47,3 @@ Then run `GenderClassification-FacialLandmarksDetection.ipynb` in Jupyter or Goo
 * **Multitask improved**: MSE ≈ 1.40, NME ≈ 0.0055
 
 **Key Insight:** Naïve multitask models underperform, but with targeted improvements, multitask learning can **outperform single-task models** on both classification and landmark detection.
-
----
-
-## 📂 Files
-
-* `GenderClassification-FacialLandmarksDetection.ipynb` – Main notebook with models and training
-* `requirements.txt` – Dependencies
-* `README.md` – This file
-
