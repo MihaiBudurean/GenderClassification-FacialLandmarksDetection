@@ -10,10 +10,10 @@ The objective is to compare baseline single-task models against multitask archit
 
 ### Tasks
 
-* **Gender Classification (Single-task)** – ResNet-18 backbone with a binary classification head.
-* **Landmark Detection (Single-task)** – ResNet-18 backbone with regression head predicting landmark coordinates.
+* **Gender Classification (Single-task)** – **ResNet-18** backbone with a binary classification head.
+* **Landmark Detection (Single-task)** – **ResNet-18** backbone with regression head predicting landmark coordinates.
 * **Multitask Baseline** – Shared encoder with dual heads (classification + regression).
-* **Multitask Improved** – Enhanced multitask setup with pretrained ResNet-18, stronger augmentations, **Wing Loss**, and **OneCycleLR** scheduling.
+* **Multitask Improved** – Enhanced multitask setup with pretrained **ResNet-18**, stronger augmentations, **Wing Loss**, and **OneCycleLR** scheduling.
 
 ### Metrics
 
@@ -35,23 +35,17 @@ The objective is to compare baseline single-task models against multitask archit
 
 Install with:
 
-```bash
-pip install -r requirements.txt
-```
-
 ---
 
 ## 🚀 Usage
 
-Clone the repository and open the notebook:
+Install the dependencies:
 
 ```bash
-git clone https://github.com/your-username/GenderLandmarkDetection.git
-cd GenderLandmarkDetection
 pip install -r requirements.txt
 ```
 
-Then run `final_project_amlcv_best.ipynb` in Jupyter or Google Colab.
+Then run `GenderClassification-FacialLandmarksDetection.ipynb` in Jupyter or Google Colab.
 
 ---
 
@@ -75,8 +69,7 @@ Then run `final_project_amlcv_best.ipynb` in Jupyter or Google Colab.
 
 ## 📂 Files
 
-* `final_project_amlcv_best.ipynb` – Main notebook with models and training
-* `report.pdf` – Detailed project report
+* `GenderClassification-FacialLandmarksDetection.ipynb` – Main notebook with models and training
 * `requirements.txt` – Dependencies
 * `README.md` – This file
 
